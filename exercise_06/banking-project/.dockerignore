@@ -1,0 +1,3 @@
+printf 'build/*\n!build/libs/*.jar\n.gradle/\nsrc/\n' > account-service/.dockerignore
+printf 'build/*\n!build/libs/*.jar\n.gradle/\nsrc/\n' > transaction-service/.dockerignore
+printf 'build/*\n!build/libs/*.jar\n.gradle/\nsrc/\n' > api-gateway/.dockerignore
